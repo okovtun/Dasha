@@ -1,0 +1,31 @@
+type name(parameters)
+{
+	.....;
+	group-of-statements;
+	.....;
+}
+
+type - тип возвращаемого значения.
+void
+return value;
+return;
+
+int function1(...)
+{
+	...
+	...
+	..
+	return value;
+}
+void function2()
+{
+	.....
+	.....
+	if(....)return;
+	.....
+	.....
+}
+
+name - имя функции.
+
+parameters - список принимаемых параметров функции.
