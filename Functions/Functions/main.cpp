@@ -1,17 +1,17 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 //Asus VivoBook 15 X515EA
 
 int Add(int a, int b)
 {
-	//Addition - сложение
+	//Addition - СЃР»РѕР¶РµРЅРёРµ
 	int sum = a + b;
 	return sum;
 }
 int Sub(int a, int b)
 {
-	//Subtraction - вычитание
+	//Subtraction - РІС‹С‡РёС‚Р°РЅРёРµ
 	return a - b;
 }
 int Mul(int a, int b)
@@ -28,7 +28,7 @@ double Div(int a, int b)
 void main()
 {
 	int a, b;
-	cout << sizeof(int) << endl;	//Оператор sizeof() возвращает размер в Байтах.
+	cout << sizeof(int) << endl;	//РћРїРµСЂР°С‚РѕСЂ sizeof() РІРѕР·РІСЂР°С‰Р°РµС‚ СЂР°Р·РјРµСЂ РІ Р‘Р°Р№С‚Р°С….
 	cout << sizeof(double) << endl;
 	cout << "Type two numbers: "; cin >> a >> b;
 	int c = Add(a, b);
