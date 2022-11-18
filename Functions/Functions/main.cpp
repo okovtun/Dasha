@@ -3,7 +3,10 @@ using namespace std;
 
 //Asus VivoBook 15 X515EA
 
-
+//Unresolved externals
+//Unresolved external symbol found
+//LNK - Linker (Компоновщик)
+//LNK2019 - ошибка на этапе компоновки
 
 int Add(int a, int b = 0);	//Прототип функции (Объявление функции - Function declaration)
 								//Прототип функции нужне для того чтобы имя функции, ее список 
